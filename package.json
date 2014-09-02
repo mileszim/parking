@@ -1,0 +1,28 @@
+{
+  "name": "parking",
+  "version": "0.0.0",
+  "description": "Takes a snapshot of chapman's parking and stores it in orchestrate",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mileszim/parking.git"
+  },
+  "keywords": [
+    "parking",
+    "chapman"
+  ],
+  "author": "Miles Zimmerman",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mileszim/parking/issues"
+  },
+  "homepage": "https://github.com/mileszim/parking",
+  "dependencies": {
+    "orchestrate": "^0.3.4",
+    "bluebird": "^2.3.2",
+    "request": "^2.40.0"
+  }
+}
