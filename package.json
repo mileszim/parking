@@ -1,10 +1,11 @@
 {
   "name": "parking",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Takes a snapshot of chapman's parking and stores it in orchestrate",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
@@ -24,5 +25,9 @@
     "orchestrate": "^0.3.4",
     "bluebird": "^2.3.2",
     "request": "^2.40.0"
+  },
+  "subdomain": "mileszim-parking",
+  "engines": {
+    "node": "0.10.x"
   }
 }
