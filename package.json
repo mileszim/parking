@@ -1,6 +1,6 @@
 {
   "name": "parking",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Takes a snapshot of chapman's parking and stores it in orchestrate",
   "main": "index.js",
   "scripts": {
